@@ -1,4 +1,4 @@
-package co.salutary.mos;
+package br.unb.lasp.mos;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

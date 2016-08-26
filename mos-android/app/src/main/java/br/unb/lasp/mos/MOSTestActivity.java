@@ -1,4 +1,4 @@
-package co.salutary.mos;
+package br.unb.lasp.mos;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -212,7 +212,7 @@ public class MOSTestActivity extends AppCompatActivity implements LoaderCallback
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://co.salutary.mos/http/host/path")
+                Uri.parse("android-app://br.unb.lasp.mos/http/host/path")
         );
         AppIndex.AppIndexApi.start(client, viewAction);
     }
@@ -231,7 +231,7 @@ public class MOSTestActivity extends AppCompatActivity implements LoaderCallback
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://co.salutary.mos/http/host/path")
+                Uri.parse("android-app://br.unb.lasp.mos/http/host/path")
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();

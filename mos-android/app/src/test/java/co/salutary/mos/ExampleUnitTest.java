@@ -1,4 +1,4 @@
-package co.salutary.mos;
+package br.unb.lasp.mos;
 
 import org.junit.Test;
 
